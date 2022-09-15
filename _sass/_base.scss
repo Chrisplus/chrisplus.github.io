@@ -526,6 +526,7 @@ footer.sticky-bottom {
         > em {
           border-bottom: 1px solid;
           font-style: normal;
+          font-weight: 400;
         }
         > span.more-authors {
           color: var(--global-text-color-light);
@@ -651,3 +652,18 @@ html.transition *:after {
     }
   }
 }
+
+
+//social icon colors
+
+.gs-icon {background: #5086ec; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: initial; }
+.gs-icon:hover { background: #acc6f6; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-decoration: none; }
+
+.gh-icon { color: #1d2a39; background: #25292e; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: initial; }
+.gh-icon:hover { color: #525b67; background: #525b67; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-decoration: none; }
+
+.li-icon { background: #0e76a8; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: initial; }
+.li-icon:hover { background: #2eb0ee; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-decoration: none; }
+
+
+.main-name {color: var(--global-theme-color) !important;}

@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-05-11
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Our paper, [*CoDL*](https://dl.acm.org/doi/abs/10.1145/3498361.3538932) got accepcted to MobiSys 2022. :sparkles:
