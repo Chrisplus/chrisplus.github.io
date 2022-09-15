@@ -12,12 +12,20 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+<<<<<<< HEAD
 keywords: Shiqi Jiang, Jiang Shiqi, Shiqi, Chris Jiang, Chrisplus, Chrisplus Jiang  # add your own keywords or leave empty
+=======
+keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+>>>>>>> aa3cfd4 (UPDATE version 0)
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon:   # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
+<<<<<<< HEAD
 url: https://chrisplus.me # the base hostname & protocol for your site
+=======
+url: https://alshedivat.github.io # the base hostname & protocol for your site
+>>>>>>> aa3cfd4 (UPDATE version 0)
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -92,7 +100,12 @@ facebook_id: # your facebook id
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 
+<<<<<<< HEAD
 contact_note:
+=======
+contact_note: >
+  You can even add a little note about which of these is the best way to reach you.
+>>>>>>> aa3cfd4 (UPDATE version 0)
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -139,10 +152,13 @@ collections:
     output: true
     permalink: /news/:path/
 
+<<<<<<< HEAD
   # projects:
   #   output: true
   #   permalink: /projects/:path/
 
+=======
+>>>>>>> aa3cfd4 (UPDATE version 0)
 news_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
 news_limit: 3 # leave blank to include all the news in the `_news` folder
 
