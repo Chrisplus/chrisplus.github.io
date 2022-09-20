@@ -8,16 +8,16 @@ middle_name:
 last_name: Jiang
 email:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Shiqi Jiang's Homepage
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: Shiqi Jiang, Jiang Shiqi, Shiqi, Chris Jiang, Chrisplus, Chrisplus Jiang  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon:   # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://alshedivat.github.io # the base hostname & protocol for your site
+url: https://chrisplus.me # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -77,21 +77,20 @@ quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
-work_url: google.com # work page URL
+work_url: https://www.microsoft.com/en-us/research/people/shijiang/ # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note:
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics:  # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics:  G-D9G95MN0NL # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
@@ -111,15 +110,15 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+# disqus_shortname: al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -131,9 +130,10 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
+
+  # projects:
+  #   output: true
+  #   permalink: /projects/:path/
 
 news_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
 news_limit: 3 # leave blank to include all the news in the `_news` folder
@@ -285,7 +285,7 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
+enable_google_analytics:    true  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
 enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
