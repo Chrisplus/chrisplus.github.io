@@ -1,16 +1,23 @@
 ---
 ---
 
-@misc{https://doi.org/10.48550/arxiv.2207.00172,
-  doi = {10.48550/ARXIV.2207.00172},
-  url = {https://arxiv.org/abs/2207.00172},
-  author = {Lu, Yan and Jiang, Shiqi and Cao, Ting and Shu, Yuanchao},
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), Systems and Control (eess.SY), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Electrical engineering, electronic engineering, information engineering, FOS: Electrical engineering, electronic engineering, information engineering},
-  title = {Turbo: Opportunistic Enhancement for Edge Video Analytics},
-  publisher = {arXiv},
-  year = {2022},
-  abbr={arXiv},
-  selected={false},
+@inproceedings{turbo_sensys_22,
+author = {Lu, Yan and Jiang, Shiqi and Cao, Ting and Shu, Yuanchao},
+title = {Turbo: Opportunistic Enhancement for Edge Video Analytics},
+year = {2022},
+isbn = {9781450398862},
+publisher = {Association for Computing Machinery},
+address = {Boston, MA, USA},
+url = {https://doi.org/10.1145/3560905.3568501},
+doi = {10.1145/3560905.3568501},
+abstract = {Edge computing is being widely used for video analytics. To alleviate the inherent tension between accuracy and cost, various video analytics pipelines have been proposed to optimize the usage of GPU on edge nodes. Nonetheless, we find that GPU compute resources provisioned for edge nodes are commonly under-utilized due to video content variations, subsampling and filtering at different places of a video analytics pipeline. As opposed to model and pipeline optimization, in this work, we study the problem of opportunistic data enhancement using the non-deterministic and fragmented idle GPU resources. In specific, we propose a task-specific discrimination and enhancement module,  and a model-aware adversarial training mechanism, providing a way to exploit idle resources to identify and transform pipeline-specific, low-quality images in an accurate and efficient manner. A multi-exit enhancement model structure and a resource-aware scheduler is further developed to make online enhancement decisions and fine-grained inference execution under latency and GPU resource constraints. Experiments across multiple video analytics pipelines and datasets reveal that our system boosts DNN object detection accuracy by $7.27-11.34\%$ by judiciously allocating $15.81-37.67\%$ idle resources on frames that tend to yield greater marginal benefits from enhancement. },
+booktitle = {Proceedings of the 20th ACM Conference on Embedded Networked Sensor Systems},
+series = {SenSys '22},
+abbr={SenSys '22},
+selected={true},
+bibtex_show={true},
+pdf={sensys22-Turbo.pdf},
+code={https://aka.ms/turbo-project},
 }
 
 @inproceedings{codl_mobisys_22,
