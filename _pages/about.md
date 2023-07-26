@@ -21,4 +21,4 @@ I am a Senior Researcher with Systems and Networking Research Group, [Microsoft 
 
 My research interests broadly fall in edge computing, mobile sensing, Internet-of-Things (IoT) and wearables. My recent research mainly focuses on `Edge AI`, where I especially investigate the following topics: efficient inference system on Edge; continuous learning system for Edge; and AI-powered mobile sensing system.
 
-I am constantly reruiting research interns. If you are interested in our work, please feel free to contact me.
+<!-- I am constantly reruiting research interns. If you are interested in our work, please feel free to contact me. -->
