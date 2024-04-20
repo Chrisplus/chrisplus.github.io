@@ -1,6 +1,45 @@
 ---
 ---
 
+@inproceedings{nnjit_mobisys_24,
+author = {Jia, Fucheng and Jiang, Shiqi and Cao, Ting and Cui, Wei and Cao, Xu and Li, Yuanchun and Wang, Qipeng and Zhang, Deyun and Ren, Ju and Liu, Yunxin and Qiu, Lili and Yang, Mao},
+title = {Empowering In-Browser Deep Learning Inference on Edge Through Just-In-Time Kernel Optimization},
+year = {2024},
+isbn = {97814503918562206},
+publisher = {Association for Computing Machinery},
+address = {Tokoy, Japan},
+url = {https://doi.org/10.1145/3636534.3649379},
+doi = {10.1145/3636534.3649379},
+abstract = {Web is increasingly becoming the primary platform to deliver AI services onto edge devices, making in-browser deep learning (DL) inference more prominent. Nevertheless, the heterogeneity of edge devices, combined with the underdeveloped state of Web hardware acceleration practices, hinders current in-browser inference from achieving its full performance potential on target devices. To address this issue, this paper presents the pioneering in-browser inference system, nnJIT, which enables just-in-time (JIT) auto-generation of optimized computing kernels for edge devices. nnJIT is built upon two novel techniques that significantly reduce kernel search and compilation overhead while improving performance firmly: Tensor-Web Compiling Co-Design lowers compiling costs by around 100 × × through eliminating redundant and ineffective compiling passes; Web-Specific Lite Kernel Optimization Space reduces kernel tuning costs by focusing on Web programming requirements and efficient device resource utilization, pruning the optimization space from millions to only dozens. nnJIT is evaluated for modern models, e.g., BART, T5, and Llama 2, on a range of edge devices including laptops and smartphones using different browsers and hardware from ARM, Intel, AMD and Nvidia. The results show that nnJIT can achieve up to 8.2X faster within 30 seconds compared to the existing baselines.},
+location = {Tokoy, Japan},
+series = {MobiSys '24},
+abbr={MobiSys '24},
+selected={true},
+bibtex_show={true},
+pdf={mobisys24-nnjit.pdf},
+code={https://chrisplus.me},
+}
+
+@inproceedings{autodroid_mobicom_24,
+author = {Wen, Hao and Li, Yuanchun and Liu, Guohong and Zhao, Shanhui and Yu, Tao and Li, Toby Jia-Jun and Jiang, Shiqi and Liu, Yunhao and Zhang, Yaqin and Liu, Yunxin},
+title = {AutoDroid: LLM-powered Task Automation in Android},
+year = {2024},
+isbn = {97984007048952409},
+publisher = {Association for Computing Machinery},
+address = {Washington D.C., DC, USA},
+url = {https://doi.org/10.1145/3636534.3649379},
+doi = {10.1145/3636534.3649379},
+abstract = {Mobile task automation is an attractive technique that aims to enable voice-based hands-free user interaction with smartphones. However, existing approaches suffer from poor scalability due to the limited language understanding ability and the non-trivial manual efforts required from developers or endusers. The recent advance of large language models (LLMs) in language understanding and reasoning inspires us to rethink the problem from a model-centric perspective, where task preparation, comprehension, and execution are handled by a unified language model. In this work, we introduce AutoDroid, a mobile task automation system capable of handling arbitrary tasks on any Android application without manual efforts. The key insight is to combine the commonsense knowledge of LLMs and domain-specific knowledge of apps through automated dynamic analysis. The main components include a functionality-aware UI representation method that bridges the UI with the LLM, exploration-based memory injection techniques that augment the app-specific domain knowledge of LLM, and a multi-granularity query optimization module that reduces the cost of model inference. We integrate AutoDroid with off-the-shelf LLMs including online GPT-4/GPT-3.5 and on-device Vicuna, and evaluate its performance on a new benchmark for memory-augmented Android task automation with 158 common tasks. The results demonstrated that AutoDroid is able to precisely generate actions with an accuracy of 90.9%, and complete tasks with a success rate of 71.3%, outperforming the GPT-4-powered baselines by 36.4% and 39.7%.},
+location = {Washington D.C., US},
+series = {MobiCom '24},
+abbr={MobiCom '24},
+selected={true},
+bibtex_show={true},
+pdf={mobicom24-autoDroid.pdf},
+code={https://chrisplus.me},
+}
+
+
 @inproceedings{nnstretch_mobisys_23,
 author = {Wei, Jianyu and Cao, Ting and Cao, Shijie and Jiang, Shiqi and Fu, Shaowei and Yang, Mao and Zhang, Yanyong and Liu, Yunxin},
 title = {NN-Stretch: Automatic Neural Network Branching for Parallel Inference on Heterogeneous Multi-Processors},
