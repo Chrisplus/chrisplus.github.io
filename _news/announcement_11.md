@@ -5,4 +5,4 @@ inline: true
 ---
 
 
-One paper was conditionally accepcted to SenSys 2025.:sparkles::sparkles:
+One paper was conditionally accepcted to SenSys 2025. :sparkles::sparkles:
