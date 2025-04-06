@@ -193,6 +193,29 @@ pdf={apsys20-profiling.pdf}
 }
 
 
+@article{lut_diff_tmc,
+author={Wang, Qipeng and Jiang, Shiqi and Yang, Yifan and Liu, Ruiqi and Li, Yuanchun and Cao, Ting and Liu, Xuanzhe},
+journal={ IEEE Transactions on Mobile Computing },
+title={{ Efficient and Adaptive Diffusion Model Inference Through Lookup Table on Mobile Devices }},
+year={2025},
+volume={},
+number={01},
+ISSN={1558-0660},
+pages={1-18},
+abstract={ Diffusion models have revolutionized image synthesis applications. Many studies focus on using approximate computation such as model quantization to reduce inference costs on mobile devices. However, due to their extensive model parameters and autoregressive inference fashion, the overhead of diffusion models remains high, which is challenging for mobile devices to handle. To reduce the inference overhead of diffusion models on mobile devices, we propose LUT-Diff, an algorithm-system co-design specifically tailored for mobile device diffusion model inference optimization. LUT-Diff optimizes using lookup tables and can efficiently generate a series of lookup table candidates for diffusion models without end-to-end training. During inference, LUT-Diff adaptively selects the best inference strategy based on the application/user's latency budget. Additionally, LUT-Diff includes a parallel inference engine that rapidly completes model inference through CPU-GPU co-scheduling. Extensive experiments demonstrate that LUT-Diff can generate images comparable to the original model, with an up to 0.012 MSE in generated images. LUT-Diff can also achieve up to 9.1× inference acceleration and reduce the inference memory footprint by up to 70.9% compared to baseline methods. Moreover, LUT-Diff can save at least 3281× the learning cost of lookup tables. },
+keywords={},
+doi={10.1109/TMC.2025.3558203},
+url = {https://doi.ieeecomputersociety.org/10.1109/TMC.2025.3558203},
+publisher={IEEE Computer Society},
+address={Los Alamitos, CA, USA},
+month=apr,
+abbr={IEEE TMC},
+selected={true},
+bibtex_show={true},
+pdf={tmc25-lutdiff.pdf}
+}
+
+
 @article{adawifi_tmc,
 author={Zheng, Naiyu and Li, Yuanchun and Jiang, Shiqi and Li, Yuanzhe and Yao, Rongchun and Dong, Chuchu and Chen, Ting and Yang, Yubo and Yin, Zhimeng and Liu, Yunxin},
 journal={IEEE Transactions on Mobile Computing}, 
@@ -275,7 +298,7 @@ articleno = {8},
 numpages = {23},
 keywords = {lifelogging, emotion recognition, Wearable, EEG},
 abbr={ACM TOSN},
-selected={true},
+selected={false},
 bibtex_show={true}
 }
 
@@ -290,7 +313,7 @@ pages={2851-2864},
 doi={10.1109/TITS.2017.2650215},
 abstract={This paper presents a participatory sensing-based urban traffic monitoring system. Different from existing works that heavily rely on intrusive sensing or full cooperation from probe vehicles, our system exploits the power of participatory sensing and crowdsources the traffic sensing tasks to bus riders' mobile phones. The bus riders are information source providers and, meanwhile, major consumers of the final traffic output. The system takes public buses as dummy probes to detect road traffic conditions, and collects the minimum set of cellular data together with some lightweight sensing hints from the bus riders' mobile phones. Based on the crowdsourced data from participants, the system recovers the bus travel information and further derives the instant traffic conditions of roads covered by bus routes. The real-world experiments with a prototype implementation demonstrate the feasibility of our system, which achieves accurate and fine-grained traffic estimation with modest sensing and computation overhead at the crowd.},
 abbr={IEEE TITS},
-selected={true},
+selected={false},
 bibtex_show={true}
 }
 
