@@ -5,4 +5,4 @@ inline: true
 ---
 
 
-One paper was accepcted to TOSEM, one paper as accepected to TMC. 🎊🎊
+One paper was accepcted to TOSEM, one paper as accepted to TMC. 🎊🎊

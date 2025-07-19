@@ -5,4 +5,4 @@ inline: true
 ---
 
 
-One paper was conditionally accepcted to MobiSys 2023. :sparkles::sparkles:
+One paper was conditionally accepted to MobiSys 2023. :sparkles::sparkles:

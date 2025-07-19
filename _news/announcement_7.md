@@ -5,4 +5,4 @@ inline: true
 ---
 
 
-One paper was accepcted to MobiCom 2024 (Summer Round).:sparkles::sparkles:
+One paper was accepted to MobiCom 2024 (Summer Round).:sparkles::sparkles:

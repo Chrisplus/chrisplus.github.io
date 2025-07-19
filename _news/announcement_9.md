@@ -5,4 +5,4 @@ inline: true
 ---
 
 
-One paper was conditionally accepcted to MobiSys 2024. 🎊🎊
+One paper was conditionally accepted to MobiSys 2024. 🎊🎊
