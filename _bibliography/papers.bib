@@ -1,5 +1,47 @@
 ---
 ---
+@inproceedings{nputts_eurosys_26,
+author = {Hao, Zixu and Wei, Jianyu and Wang, Tuowei and Huang, Mingxing and Jiang, Huiqiang and Jiang, Shiqi and Cao, Ting and Ren, Ju},
+title = {Scaling LLM Test-Time Compute with Mobile NPU on Smartphones},
+year = {2025},
+isbn = {37672953769382},
+publisher = {Association for Computing Machinery},
+address = {Edinburgh, Scotland Uk},
+url = {https://doi.org/10.1145/3767295.3769382},
+doi = {3767295.3769382},
+abstract = {With the rise of real-world human-AI interaction applications, such as AI assistants, the need for Streaming Video Dialogue is critical. To address this need, we introduce StreamMind, a video LLM framework that achieves ultra-FPS streaming video processing (100 fps on a single A100) and enables proactive, always-on responses in real time, without explicit user intervention.
+To solve the key challenge of the contradiction between linear video streaming speed and quadratic transformer computation cost, we propose a novel perception-cognition interleaving paradigm named ''event-gated LLM invocation'', in contrast to the existing per-time-step LLM invocation. By introducing a Cognition Gate network between the video encoder and the LLM, LLM is only invoked when relevant events occur. To realize the event feature extraction with constant cost, we propose Event-Preserving Feature Extractor (EPFE) based on state-space method, generating a single perception token for spatiotemporal features. These techniques enable the video LLM with full-FPS perception and real-time cognition response.
+Experiments on Ego4D and SoccerNet streaming tasks, as well as standard offline benchmarks, demonstrate state-of-the-art performance in both model capability and real-time efficiency, paving the way for ultra-high-FPS applications, such as Game AI and interactive media},
+series = {EuroSys '26},
+abbr={EuroSys '25},
+selected={true},
+bibtex_show={true},
+pdf={eurosys26-nputts.pdf},
+code={https://github.com/haozixu/llama.cpp-npu},
+}
+
+
+@inproceedings{streammind_iccv_25,
+author = {Ding, Xing and Wu, Hao and Yang, Yifan and Jiang, Shiqi and Bai, Donglin and Chen, Zhibo and Cao, Ting},
+title = {StreamMind: Unlocking Full Frame Rate Streaming Video Dialogue through Event-Gated Cognition},
+year = {2025},
+isbn = {37150143722068},
+publisher = {Association for Computing Machinery},
+address = {Honolulu, Hawai'i, USA},
+url = {https://doi.org/10.1145/3715014.3722068},
+doi = {3715014.3722068},
+abstract = {With the rise of real-world human-AI interaction applications, such as AI assistants, the need for Streaming Video Dialogue is critical. To address this need, we introduce StreamMind, a video LLM framework that achieves ultra-FPS streaming video processing (100 fps on a single A100) and enables proactive, always-on responses in real time, without explicit user intervention.
+To solve the key challenge of the contradiction between linear video streaming speed and quadratic transformer computation cost, we propose a novel perception-cognition interleaving paradigm named ''event-gated LLM invocation'', in contrast to the existing per-time-step LLM invocation. By introducing a Cognition Gate network between the video encoder and the LLM, LLM is only invoked when relevant events occur. To realize the event feature extraction with constant cost, we propose Event-Preserving Feature Extractor (EPFE) based on state-space method, generating a single perception token for spatiotemporal features. These techniques enable the video LLM with full-FPS perception and real-time cognition response.
+Experiments on Ego4D and SoccerNet streaming tasks, as well as standard offline benchmarks, demonstrate state-of-the-art performance in both model capability and real-time efficiency, paving the way for ultra-high-FPS applications, such as Game AI and interactive media},
+series = {ICCV '25},
+abbr={ICCV '25},
+selected={true},
+bibtex_show={true},
+pdf={iccv25-streammind.pdf},
+code={https://aka.ms/StreamMind},
+}
+
+
 
 @inproceedings{babel_sensys_25,
 author = {Dai*, Shenghong and Jiang, Shiqi and Yang, Yifan and Cao, Ting and Li, Mo and Banerjee, Suman and Qiu, Lili},
