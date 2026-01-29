@@ -4,4 +4,4 @@ date: 2025-11-27
 inline: true
 ---
 
-One paper was conditionally accepted to MobiCom 2026  :tada::tada:
+[V-Droid](https://arxiv.org/abs/2503.15937) was accepted to MobiCom 2026  :tada::tada:
